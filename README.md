@@ -16,7 +16,7 @@ Desenvolver um microsserviço utilizando as tecnologias do framework Nest.js, e 
 - @nestjs/microservices (lib do Nest.js)
 - kafkajs (cliente Apache Kafka para Node.js)
 - upstash (plataforma serveless)
-- @prisma/client
+- @prisma/client (client para executar comandos do prisma localmente no projeto via terminal)
 - SQLite (banco de dados local)
 - Jest (lib criada pelo facebook para realizar testes unitários)
 
