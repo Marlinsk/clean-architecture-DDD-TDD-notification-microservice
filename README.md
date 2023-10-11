@@ -21,7 +21,7 @@ Desenvolver um microsserviço utilizando as tecnologias do framework Nest.js, e 
 - Jest (lib criada pelo facebook para realizar testes unitários)
 
 ## Passo a passo
-**Aviso:** Para executar o passo a passo para rodar a aplicação na sua máquina é necessário que você tenha, conhecimento em comandos de terminal, git e github commands, e comandos do gerenciador de pacotes npm, movimentação entre pastas via terminal, conta na plataforma serveless da upstash(para criar o cluster que vai rodar o Kafka).
+**Aviso:** Para executar o passo a passo para rodar a aplicação na sua máquina é necessário que você tenha, conhecimento em comandos de terminal, git e github commands, e comandos do gerenciador de pacotes npm, movimentação entre pastas via terminal, conta na plataforma serveless da upstash(para criar o cluster que vai rodar o Kafka), Rest Api, http requests, rotas http, ferramentas de requisição(postman ou insomnia).
 
 ### Clonando e configurando o projeto
 
@@ -53,11 +53,6 @@ UPSTASH_KAFKA_CLUSTER_PASSWORD='senha do cluster'
 npm install
 ```
 
-**6º passo: para rodar a aplicação notifications-service.**
-```
-npm start
-```
-
 **7º passo: saia da pasta notifications-service e entre na pasta producer.**
 ```
 cd producer
@@ -73,4 +68,16 @@ UPSTASH_KAFKA_CLUSTER_PASSWORD='senha do cluster'
 **9º passo: instale as dependências do projeto via comando npm.**
 ```
 npm install
+```
+
+### Rodando a aplicação
+
+**1º passo: para o projeto funcionar a aplicação notifications-service, precisa estar rodando, entre na pasta notifications-service e execute o comando abaixo e certifique-se que está tudo funcionando.**
+```
+npm run start
+```
+
+**2º passo: com o notifications-service rodando, entre na pasta producer e execute o comando abaixo para criar um producer**
+```
+node producer.js
 ```
