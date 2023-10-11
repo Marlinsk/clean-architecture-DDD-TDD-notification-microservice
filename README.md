@@ -81,3 +81,12 @@ npm run start
 ```
 node producer.js
 ```
+
+### Visualizando os dados
+
+**Execute o comando do client do prisma para poder acessar via web a tabela do banco de dados**
+```
+npx prisma studio
+```
+
+Após executar este comando uma tela vai abrir no seu navegar e lá você verá as opções para selecionar os bancos de dados criados.
