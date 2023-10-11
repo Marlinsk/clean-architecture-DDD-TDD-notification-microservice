@@ -30,12 +30,17 @@ Desenvolver um microsserviço utilizando as tecnologias do framework Nest.js, e 
 git clone https://github.com/Marlinsk/clean-architecture-notification-microservice.git
 ```
 
-**2º passo: Entre na pasta do projeto.**
+**2º passo: Entre na pasta do projeto clean-architecture-notification-microservice.**
 ```
 cd clean-architecture-notification-microservice
 ```
 
-**3º passo: crie antes de instalar as dependências da aplicação, crie um arquivo **.env** fora da pasta **src** e insira as seguintes variáveis.**
+**3º passo entre na pasta notifications-service.**
+```
+cd notifications-service
+```
+
+**4º passo: crie antes de instalar as dependências da aplicação, crie um arquivo **.env** fora da pasta **src** e insira as seguintes variáveis.**
 ```
 DATABASE_URL="file:./dev.db"
 
@@ -43,11 +48,29 @@ UPSTASH_KAFKA_CLUSTER_USERNAME='nome do usuário cluster'
 UPSTASH_KAFKA_CLUSTER_PASSWORD='senha do cluster'
 ```
 
-**4º passo: instale as dependências do projeto via comando npm.**
+**5º passo: instale as dependências do projeto via comando npm.**
 ```
 npm install
 ```
 
+**6º passo: para rodar a aplicação notifications-service.**
+```
+npm start
+```
 
+**7º passo: saia da pasta notifications-service e entre na pasta producer.**
+```
+cd producer
+```
 
+**8º passo: crie antes de instalar as dependências da aplicação, crie um arquivo **.env** fora da pasta **src** e insira as seguintes variáveis.**
+```
+UPSTASH_KAFKA_CLUSTER_USERNAME='nome do usuário cluster'
+UPSTASH_KAFKA_CLUSTER_PASSWORD='senha do cluster'
+```
+**Aviso:** Lembrando que são os mesmos do projeto notifications-service.
 
+**9º passo: instale as dependências do projeto via comando npm.**
+```
+npm install
+```
