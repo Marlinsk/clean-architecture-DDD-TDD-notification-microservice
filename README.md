@@ -13,10 +13,10 @@ Desenvolver um microsserviço utilizando as tecnologias do framework Nest.js, e 
 - class-validator (lib que utiliza notação para validação de campos de uma classe ou dto)
 - class-transformer (biblioteca de utilitários de dependência zero que ajuda você a transformar rapidamente instâncias de classe em objetos simples e vice-versa)
 - Prisma ORM (para mapear objetos ao paradigma do banco de dados relacional)
+- @prisma/client (client para executar comandos do prisma localmente no projeto via terminal)
 - @nestjs/microservices (lib do Nest.js)
 - kafkajs (cliente Apache Kafka para Node.js)
 - upstash (plataforma serveless)
-- @prisma/client (client para executar comandos do prisma localmente no projeto via terminal)
 - SQLite (banco de dados local)
 - Jest (lib criada pelo facebook para realizar testes unitários)
 
