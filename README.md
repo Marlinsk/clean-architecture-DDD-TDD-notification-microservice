@@ -1,4 +1,4 @@
-# clean-architecture-notification-microservice
+# clean-architecture-DDD-TDD-notification-microservice
 Microsserviço de notificações desenvolvido durante o Ignite Lab 04 de Node.js. O projeto feito com o framework Nest.js com conceitos de arquitetura limpa + DDD + TDD,  Apache Kafka, Prisma ORM, SQLite, Jest.
 
 ## Objetivo
